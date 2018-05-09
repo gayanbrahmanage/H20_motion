@@ -1,0 +1,7 @@
+<launch>
+
+    <rosparam file="$(find drrobot_jaguar4x4_player)/drrobotplayer_H202.yaml" command="load"/>
+    <node pkg="drrobot_jaguar4x4_player" name="drrobot_player2" type="drrobot_player2" output="screen"/>
+    <node pkg="drrobot_jaguar4x4_player" name="drrobotMsgTester" type="drrobotMsgTester" output="screen"/> 
+    <node name="plot2" pkg="plot" type="plot2.py" />  
+</launch>
