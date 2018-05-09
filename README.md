@@ -16,6 +16,11 @@ If you havent set your package path in `~/.bashrc` ,the package is not in your p
 
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`
 
+or  
+
+`export ROS_PACKAGE_PATH=/home/bgs/catkin_ws:/opt/ros/kinetic/share:/opt/ros/kinetic/stacks`
+`export ROS_WORKSPACE=/home/bgs/catkin_ws`
+
 Then build the `erratic_robot` package by running `rosmake`   from the `erratic_robot` directory.
 
 Then, switch to the directory `~/catkin_ws/H20_motion/DrRobotMotionSensorDriver`
