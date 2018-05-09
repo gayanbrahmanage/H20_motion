@@ -14,7 +14,7 @@ To install that, go to H20_motion directory `cd H20_motion`.
 
 If you havent set your package path in `~/.bashrc` ,the package is not in your package path, so set it using following or you can add line to `~/.bashrc` file `export export ROS_PACKAGE_PATH= "your pakcage path".` You can find the package path by using following ros command `echo $ROS_PACKAGE_PATH`.
 
-`export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:pwd`.
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`
 
 Then buid the `erratic_robot` package by running `rosmake` from the  `erratic_robot` directory.
 
