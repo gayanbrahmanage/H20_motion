@@ -18,7 +18,9 @@ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`
 
 Then build the `erratic_robot` package by running `rosmake`   from the `erratic_robot` directory.
 
-Then build the  `DrRobotMotionSensorDriver`
+Then, switch to the directory `~/catkin_ws/H20_motion/DrRobotMotionSensorDriver`
+
+Run `rosmake`
 
 Then, switch to the directory `~/catkin_ws/H20_motion/drrobot_jaguar4x4_player`
 
