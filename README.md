@@ -16,7 +16,7 @@ If you havent set your package path in `~/.bashrc` ,the package is not in your p
 
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:`pwd`
 
-or  
+or (replace bgs with your username)
 
 `export ROS_PACKAGE_PATH=/home/bgs/catkin_ws:/opt/ros/kinetic/share:/opt/ros/kinetic/stacks`
 
