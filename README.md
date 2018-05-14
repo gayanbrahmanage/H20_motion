@@ -1,4 +1,6 @@
 # H20_motion
+(rosmake version)....
+
 This package provides all the necessary drivers and programs for H20 robot. Initail programs provided by the Dr.Robot Inc have been improved to make the robot more stable in motion. The control program is based on tuned PID controller developed by Robotics and Sensor Group at University of Calgary, AB, Canada.
 
 ## How to install
